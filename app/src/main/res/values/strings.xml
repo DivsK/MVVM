@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Service You</string>
+    <string name="menu">menu</string>
+    <string name="profile_image">profile image</string>
+    <string name="morning_roxie">Morning\n<b>Roxie</b></string>
+    <string name="dummy_image">dummy image</string>
+    <string name="your_health_is_our_concern">Your health is our concern</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="book_an_appointment">Book An Appointment</string>
+    <string name="floating_button">Floating Button</string>
+    <string name="download">Download</string>
+    <string name="downloading_progress_msg">The file id downloading...</string>
+    <string name="download_complete_msg">Download Complete</string>
+    <string name="bluetooth_devices_found">Bluetooth Devices Found</string>
+    <string name="scan_nearby_ble_devices">Scan Nearby Ble Devices</string>
+    <string name="download_sample_text_file">Download Sample Text File</string>
+    <string name="calculate_word_frequency">Word Frequency</string>
+</resources>

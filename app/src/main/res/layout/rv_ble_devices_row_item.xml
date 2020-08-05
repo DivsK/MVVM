@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="scannedDevicesData"
+            type="com.example.serviceyou.ui.data.ScannedDevices" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_shade2"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tv_ble_device_name"
+                style="@style/TextViewAppearance"
+                android:text="@{scannedDevicesData._deviceName}" />
+
+            <TextView
+                android:id="@+id/tv_ble_device_address"
+                style="@style/TextViewAppearance"
+                android:text="@{scannedDevicesData._deviceAddress}" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
